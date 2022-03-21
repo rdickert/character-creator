@@ -1,2 +1,13 @@
 .buttonRow {
+  /* 
+    Added to fix positioning of hidden text for a11y (scrollburglar).
+    See https://courses.joshwcomeau.com/css-for-js/video-archive/014-character-creator-scrollburglar
+  */
+  position: relative;
+
+  overflow: scroll;
+  white-space: nowrap;
+  margin-left: -22px;
+  margin-bottom: -22px;
+  padding: 22px;
 }

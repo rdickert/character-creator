@@ -12,6 +12,16 @@
   margin-bottom: 32px;
 }
 
+/* Incomplete bonus exercise */
+
+/* @media (max-width: 1000px) {
+  .controlPane{
+    display: inline-block;
+    margin: 3px 15px;
+    width: 350px;
+  }
+} */
+
 .title {
   margin: 0;
   /* Optical centering */

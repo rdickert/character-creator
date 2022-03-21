@@ -4,6 +4,7 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
 }
 
 .header {
@@ -23,8 +24,41 @@
   margin: 0;
 }
 
+header {
+  max-width: 65%;
+}
+
+.perspectiveBar {
+  background-color: hsl(195deg, 20%, 86%);;
+  position: fixed;
+  height: 40%;
+  width: 100%;
+  bottom: 0;
+}
+
 .characterWrapper {
+  position: fixed;
+  top: 15%;
+  left: 60%;
+  bottom: 10%;
+  min-height: 500px;
 }
 
 .controlColumn {
+  width: 50%;
 }
+
+/* Incomplete bonus exercise */
+
+/* @media (max-width: 1000px) {
+  .controlColumn {
+    position: absolute;
+    white-space: nowrap;
+    overflow: auto;
+    top: 450px;
+    left: 0;
+    height: 150px;
+    width: 100%;
+    z-index: 1;
+  }
+} */
